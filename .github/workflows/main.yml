@@ -17,4 +17,4 @@ jobs:
       - name: Linting
         uses: advanced-security/python-lint-code-scanning-action@v1
         with:
-          linter: pytest
+          linter: pylint
