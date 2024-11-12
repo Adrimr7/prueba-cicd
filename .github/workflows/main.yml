@@ -14,6 +14,6 @@ jobs:
       - name: Ejecutar codigo
         run: pytest test.py
       - name: Crear imagen
-        run: docker build -t Adrimr7/pruebaCICD .
+        run: docker build -t Adrimr7/pruebacicd .
       - name: Probar contenedor
-        run: docker run Adrimr7/pruebaCICD 
+        run: docker run Adrimr7/pruebacicd
