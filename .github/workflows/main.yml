@@ -13,3 +13,7 @@ jobs:
         run: pip install pytest
       - name: Ejecutar codigo
         run: pytest test.py
+      - name: Crear imagen
+        run: docker build -t Adrimr7/pruebaCICD .
+      - name: Probar contenedor
+        run: docker run Adrimr7/pruebaCICD 
